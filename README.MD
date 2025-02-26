@@ -29,7 +29,6 @@
 - Python 3.8+
 - PostgreSQL 12+
 - Redis 6+
-- Docker и Docker Compose (опционально)
 
 ## Установка и запуск
 
@@ -70,15 +69,6 @@ DEBUG=True
 5. Запустите приложение:
 ```bash
 uvicorn main:app --reload
-```
-
-### Запуск с использованием Docker
-
-1. Убедитесь, что у вас установлены Docker и Docker Compose
-
-2. Запустите контейнеры:
-```bash
-docker-compose up -d
 ```
 
 ## Использование API
